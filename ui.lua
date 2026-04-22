@@ -766,7 +766,7 @@ do
 	local juju_text = drawing_proxy["new"]("Text", {
 		["Font"] = 1,
 		["Color"] = color3_fromrgb(255, 255, 255),
-		["Text"] = getgenv().script_name or "secretservice",
+		["Text"] = getgenv().script_name or "SS",
 		["Parent"] = logo,
 		["Position"] = udim2_new(1, 5, 0, 3),
 		["Size"] = 14,
@@ -777,7 +777,7 @@ do
 	local build_text = drawing_proxy["new"]("Text", {
 		["Font"] = 1,
 		["Color"] = menu["colors"]["accent"],
-		["Text"] = getgenv().script_version or "live",
+		["Text"] = getgenv().script_version or ".lua",
 		["Parent"] = logo,
 		["Position"] = udim2_new(1, 5, 0, 19),
 		["Size"] = 14,
